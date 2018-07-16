@@ -14,3 +14,9 @@ header h1 {
     margin-bottom: 0;
 }
 section {margin: 8px}
+footer {
+    text-align: right;
+    background-color: rgba(11, 11, 11, 0.94);
+    color: #fff;
+    height: 150px;
+}
