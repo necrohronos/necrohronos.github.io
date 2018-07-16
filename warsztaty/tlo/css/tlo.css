@@ -1,4 +1,5 @@
 body {
     background-color: aliceblue;
-    background-image: url(../img/logo.jpg)
+    background-image: url(../img/logo.jpg);
+    background-repeat: repeat-y
 }
