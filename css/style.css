@@ -41,6 +41,7 @@ a:hover {
 }
 .floatleft {
     float: left;
+    margin-right: 8px;
 }
 footer {
     text-align: right;
