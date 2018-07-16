@@ -14,7 +14,8 @@
 }
 /*
 .box:hover {
-    transform: rotate(-440deg)
+    transform: rotate(-440deg);
+    transtorm: translate(50px, 80px)
     transform: scale(4, 3);
 }*/
 @keyframes movie {
