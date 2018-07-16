@@ -1,0 +1,10 @@
+* {
+    box-sizing:content-box;
+}
+.box {
+    font-size: 16px;
+    height: 300px;
+    width: 50%;
+    border: 5px solid blueviolet;
+    padding: 20px
+}
