@@ -1,5 +1,6 @@
 body {
     background-color: aliceblue;
     background-image: url(../img/logo.jpg);
-    background-repeat: repeat-y
+    background-repeat: no-repeat;
+    background-position: 45vw 45vh;
 }

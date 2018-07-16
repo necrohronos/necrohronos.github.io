@@ -14,7 +14,7 @@ header {
     background-color: forestgreen;
     box-shadow: 0 5px 5px rgba(169, 169, 169, 0.6);
     padding: 10px;
-    z-index: 1
+    z-index: 100
 }
 header h1 {
     color: #fff;
@@ -26,6 +26,7 @@ section {
     width: 1000px;
     background-color: #fff;
     padding: 5px;
+    min-height: 80vh;
 }
 h2 {
     color: orange;
@@ -37,6 +38,9 @@ transition: color 1s ease-in;
 text-decoration: none;}
 a:hover {
     color: olivedrab;
+}
+.floatleft {
+    float: left;
 }
 footer {
     text-align: right;
