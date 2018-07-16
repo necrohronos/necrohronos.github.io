@@ -3,26 +3,55 @@
     height: 200px;
     background-color: olivedrab;
     margin: 50px;
-    transition: 2s;
+/*    transition: 2s;*/
+}
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: darkred;
+    margin: 50px;
+    
 }
 /*
 .box:hover {
     transform: rotate(-440deg)
     transform: scale(4, 3);
 }*/
-.box {
-    animation-name: "movie";
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
 @keyframes movie {
     0% 100% {
         width: 100%;
     }
-    33% {
+    25% {
         width: 200%;
     }
-    66% {
-        width: 50%;
+    50% {
+        width: 10%;
     }
+    75% {
+        width: 150%;
+    }
+}
+div.box {
+    animation-name: fame;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes fame {
+    0% 100% {
+        width: 100%;
+    }
+    25% {
+        width: 10%;
+    }
+    50% {
+        width: 200s%;
+    }
+    75% {
+        width: 150%;
+    }
+}
+div.box2 {
+    animation-name: fame;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
