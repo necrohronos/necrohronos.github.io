@@ -1,0 +1,13 @@
+body {
+    background-color: azure;
+}
+@media (min-width: 576px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+@media (min-width: 992px) {
+    body {
+        background-color: orange;
+    }
+}
