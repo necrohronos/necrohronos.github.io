@@ -1,0 +1,26 @@
+#gallery {
+    width: 80%;
+}
+.figure {
+    width: 33%;
+}
+@media (max-width: 480px) {
+    #gallery {
+        width: 100%;
+    }
+    .figure {
+        display: block;
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+    .figure {
+        display: block;
+    }
+}
+@media (max-width: 992px) {
+    .figure {
+        width: 40%;
+    }
+}
