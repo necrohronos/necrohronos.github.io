@@ -1,0 +1,28 @@
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: olivedrab;
+    margin: 50px;
+    transition: 2s;
+}
+/*
+.box:hover {
+    transform: rotate(-440deg)
+    transform: scale(4, 3);
+}*/
+.box {
+    animation-name: "movie";
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes movie {
+    0% 100% {
+        width: 100%;
+    }
+    33% {
+        width: 200%;
+    }
+    66% {
+        width: 50%;
+    }
+}

@@ -1,9 +1,16 @@
 #gallery {
     width: 80%;
+    font-size: 0;
 }
 .figure {
     width: 33%;
 }
+h2 {
+    font-size: 2em;
+}
+p, figcaption {
+    font-size: 1em;
+} 
 @media (max-width: 480px) {
     #gallery {
         width: 100%;
