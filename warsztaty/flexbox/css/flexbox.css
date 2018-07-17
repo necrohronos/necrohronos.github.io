@@ -1,5 +1,7 @@
+/*
 * {
     margin: 5px;
+*/
 }
 body {
     background-color: #e1e1e1;
@@ -8,20 +10,33 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:flex-start;
     height: 100vh;
     align-items: stretch;
     align-content: stretch;
 }
-.box {
-    min-width: 300px;
+.item {
+    width: 300px;
     background-color: orange;
     border: 2 solid black;
-    font-size: 5em;
-    font-weight: 800;
+/*    font-size: 5em;*/
+/*    font-weight: 800;*/
     text-align: center;
-    order: 3;
+/*    order: 3;*/
     align-self: stretch;
+}
+.box {
+    width: 300px;
+    background-color: orange;
+    border: 2 solid black;
+/*    font-size: 5em;*/
+/*    font-weight: 800;*/
+    text-align: center;
+/*    order: 3;*/
+    align-self: stretch;
+}
+.even {
+    background-color: aqua;
 }
 .first {
     flex: 2 2 50%;
