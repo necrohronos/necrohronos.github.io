@@ -7,7 +7,14 @@ a, a:visited {
     transition: 1s;
 }
 a:hover {
-    color: lightgreen
+    color: lightgreen;
+}
+.link:visited {
+    color: orange;
+}
+.tekst {
+    font-size: 1.5em;
+    color: bisque;
 }
 h1, i {
     text-align: center;
