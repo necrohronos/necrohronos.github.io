@@ -20,3 +20,37 @@ h1, i {
     text-align: center;
     font-size: 3em;
 }
+#przycisk {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+#popup {
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(138, 43, 226, 0.9);
+    display: none;
+}
+#popup input, #popup textarea {
+    width: 90%;
+    margin-bottom: 10px;
+}
+#btn {
+    width: 50%;
+    height: 50px;
+    background-color: greenyellow;
+    border: 0;
+}
