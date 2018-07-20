@@ -1,0 +1,8 @@
+body {
+    background-color: #171515;
+    color: rgba(255, 255, 255, 0.76);
+}
+h1, i {
+    text-align: center;
+    font-size: 3em;
+}
