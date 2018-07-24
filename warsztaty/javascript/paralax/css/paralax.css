@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#paralax{
+    background-image: url(../img/3840x2160_night.png);
+    background-size: cover;
+}
+#paralax2 {
+    background-image: url(../img/moon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    height: 50vh;
+}
+.box {
+    height: 100vh;
+}

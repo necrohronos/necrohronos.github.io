@@ -1,8 +1,8 @@
-function ajax(metod, url) {
+function ajax(method, url) {
     //utworzenie obiektu XMLhttpRequest
     let httpReq = new XMLHttpRequest();
     //otwieram połącznie z serwerem
-    httpReq.open('GET','https://jsonpplaceholder.typicode.com/post//')
+    httpReq.open(method, url)
     //jeżeli status serwera został zmieniony
     /* ): połączeie nie nawiązane,
     1: połączenie nawiązane,
@@ -10,7 +10,7 @@ function ajax(metod, url) {
     3. przetwarzanie
     4. dane zwrócone i gotowe do użycia */
     httpReq.onreadystatechange = function() {
-        // sprawdza kod
+        // sprawdza kod readyState
         if(httpReq.readyState == 4) {
             //sprawdza status połączenia
             if (httpReq.status == 200) {
@@ -24,6 +24,10 @@ function ajax(metod, url) {
     }
     //definicja onsuccess na obiekcie httpReq
     httpReq.onsuccess = function(response) {
+        let jsonObj = JSON.parse(response);
         console.log(response);
     }
+    httpReq.send()
 }
+//wywołanie funkcji
+ajax('GET','http://echo.jsontest.com/userId/108/userName/Akademia108/uresURL/akademia108.pl')
