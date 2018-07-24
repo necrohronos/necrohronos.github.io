@@ -8,7 +8,7 @@ $(document).ready(function () {
         "width": slideWidth + "%",
         "margin-left": 100 / slideCount + '%'
     })
-    $('.prev-slide').click(function() {
-        
+    $('.prev-slide').click(slide(newSlideIndex) {
+        $(newSlideIndex).slide()
     })
 });
