@@ -1,0 +1,44 @@
+#container {
+  margin: 0 auto;
+  padding: 0;
+  background-color: orange; 
+  width: 300px;
+}
+button {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  font-size: 2em;
+  border: 0;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h2 {
+  text-align: center;
+  opacity: 0.3;
+}
+#ekran {
+  width: 272px;
+  height: 50px;
+  background-color: darkgrey;
+  color: greenyellow;
+  margin: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2em;
+  text-align: right;
+  padding-right: 5px;
+}
+.w-2x {
+  width: 125px;
+}
+.blue {
+  background-color: aquamarine;
+}
+.green {
+  background-color: greenyellow;
+}
+.grey {
+  background-color: darkgrey;
+}

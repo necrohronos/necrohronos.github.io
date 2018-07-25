@@ -10,7 +10,10 @@ $(document).ready(function () {
                 $(this).animate({
                     "width": "100%",
                     "height": "150%"
-                })
+                }, function() {
+                    $( this ).after( "<p>Animation complete.</p>" )
+                }
+                               )
             })
 
     })
@@ -18,12 +21,23 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#anykey').click(function () {
       $('#box').animate({
-        left: 100px,
-        width: 100px,
-        height: 100px,
-      }
-      3000,)
-    });
+        "left": "100px",
+        "width": "100px",
+        "height": "100px"
+      }, 3000);},
+      function() {
+      $('#box').animate({
+          'backgroundColor': "#000000"
+          
+        }, 5000); }
+        
+        );
+      }); 
+document.addEventListener("DOMContentLoaded",function(){
+  document.getElementsByTagName('button').addEventListener('click' function() {
+    document.getElementById('podglad').innerHTML += this.value;
+
+  });
 });
 /* $('#hide').click(function () {
 $('#animacja').slideUp('slow');
