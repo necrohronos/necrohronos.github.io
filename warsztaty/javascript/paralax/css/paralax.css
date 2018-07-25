@@ -13,6 +13,7 @@ body {
     width: 100%;
     top: 10vh;
     height: 50vh;
+    color: rgba(169, 169, 169, 0.79)
 }
 .box {
     height: 100vh;
