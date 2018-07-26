@@ -11,10 +11,23 @@
          result = n * silnia(n-1);
          return result;
      }
-   
-   /*  for(let i=0; i < n; i++) {
-       result *= result+1;  
-     }
-     return result; */
  }
-console.log(silnia(5))
+
+
+function sliniaLoop(n){
+  let wynik = 1;
+     if (n < 0) {
+         return -1;
+     }
+     else if (n < 2) {
+         return 1;
+     }
+     else { 
+     for(n; n>0; --n){
+         wynik = wynik * n;
+         
+     }
+         return wynik;
+     }}
+     console.log(silnia(5));
+console.log(sliniaLoop(5))
