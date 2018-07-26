@@ -3,11 +3,11 @@
 	let ekranik = document.getElementById('podglad');
 	let resultButton = document.getElementById('wynik');
   let clearButton = document.getElementById('delete'); */
-$(document).ready(function() {
-	$('.number').click( widok()) 
-    function widok() { 
+function widok() { 
         //$('#podglad').html += $('.number').value;};
         console.log($('.numbers').value)}
+$(document).ready(function() {
+	$('.number').click(widok) 
     $('#wynik').click(function(){var wynik = eval(widok()); $('#podglad').html(wynik)})
     $('#delete').click(function() {$('#podglad').empty()})
 });
