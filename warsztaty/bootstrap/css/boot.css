@@ -1,0 +1,29 @@
+.red {
+/*    height: 100px;*/
+    background-color: #bd2130;
+}
+.green {
+    height: 200px;
+    background-color: #1e7e34;
+    color: white
+}
+.yellow {
+    height: 49vh;
+    background-color: #ffc107;
+    margin-bottom: 15px;
+}
+.btn-custom {
+    background-color: blueviolet;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: darkviolet;
+    color: white;
+    text-decoration: none;
+}
+.black {
+    background-color: black;
+}
+.nav-green {
+   background-color: #1e7e34 !important; 
+}
