@@ -11,6 +11,77 @@ background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 4
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
 }
 header {
+
+    background: forestgreen url(../img/header.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 70vh;
+    }
+   
+#bob {
+    color: white;
+    position: absolute;
+    margin: 20vh auto 0;
+    right: 10px;
+}
+.nav-scrolled {
+    background-color: rgba(85, 107, 47, 0.95);
+}
+.nav-scrolled a:hover {
+    color: aliceblue;
+}
+section {
+    background-color: white
+}
+.port-image {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+   
+}
+.p-image1 {
+    background-image: url(../img/288.png);
+}
+.p-image2 {
+    background-image: url(../img/huf.png);
+}
+.p-image3 {
+    background-image: url(../img/wsj19.png);
+}
+.port-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+        
+}
+.port-mask a {
+    color: white;
+    transition: 1s;
+     
+}
+.port-mask a:hover {
+    color: olivedrab;
+}
+.port-mask:hover {
+    opacity: 1
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.86);
+    color: white;
+    line-height: 50px;
+}
+/*header {
     background-color: forestgreen;
     box-shadow: 0 5px 5px rgba(169, 169, 169, 0.6);
     padding: 10px;
@@ -52,5 +123,5 @@ footer {
     color: #fff;
     height: 10vh;
     padding: 10px;
-}
+} */
 
