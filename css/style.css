@@ -10,10 +10,18 @@ background: -ms-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,
 background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
 }
+#about > h2 {
+    text-align: center;
+    color: rgb(85, 107, 47) !important;
+}
+#about > img {
+    max-height: 250px;
+}
 header {
 
     background: forestgreen url(../img/header.jpg) no-repeat fixed;
     background-size: cover;
+    background-position: center;
     height: 70vh;
     }
    
@@ -23,15 +31,39 @@ header {
     margin: 20vh auto 0;
     right: 10px;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
 .nav-scrolled {
     background-color: rgba(85, 107, 47, 0.95);
 }
 .nav-scrolled a:hover {
     color: aliceblue;
 }
+.main-container {
+    background-color: #fff;
+}
 section {
     background-color: white
 }
+#skills {
+    
+    min-height: 60vh;
+    padding-top: 30px;
+    padding-bottom: 22px;
+}
+.olive-bg {
+    background-color: rgb(85, 107, 47);
+    color: #fff;
+    text-align: center;
+    -webkit-clip-path: polygon(0 7%, 14% 4%, 36% 1%, 73% 5%, 93% 3%, 100% 1%, 100% 89%, 83% 95%, 63% 94%, 32% 94%, 6% 96%, 0 88%);
+clip-path: polygon(0 7%, 14% 4%, 36% 1%, 73% 5%, 93% 3%, 100% 1%, 100% 89%, 83% 95%, 63% 94%, 32% 94%, 6% 96%, 0 88%);
+}
+.fa-wifi {
+    transform: rotate(225deg);
+}
+
+
 .port-image {
     height: 200px;
     background-repeat: no-repeat;
@@ -48,6 +80,15 @@ section {
 }
 .p-image3 {
     background-image: url(../img/wsj19.png);
+}
+.p-image4 {
+    background-image: url(../img/ehuf.png);
+}
+.p-image5 {
+    background-image: url(../img/szmaragdowa.png)
+}
+.p-image6 {
+    background-image: url(../img/bootstrap-cw.png)
 }
 .port-mask {
     position: absolute;
@@ -76,10 +117,31 @@ section {
 .port-mask:hover {
     opacity: 1
 }
+#simple-title {
+    min-height: 60px;
+    line-height: 60px;
+    padding-top: 10px;
+}
+
 footer {
-    background-color: rgba(0, 0, 0, 0.86);
+    background-color: #202020;
     color: white;
-    line-height: 50px;
+    min-height: 60px;
+    line-height: 60px;
+}
+footer >div {
+   background-color: #202020;
+}
+footer a {
+    color: #fff;
+    transition: 0.7s;
+}
+footer a:hover {
+    color: rgba(255, 255, 255, 0.3)
+}
+footer i {
+    margin-top: 14px;
+    margin-right: 10px;
 }
 /*header {
     background-color: forestgreen;
