@@ -1,64 +1,91 @@
 body {
     font-family: 'Roboto', serif;
     margin: 0;
-    background: rgba(226,226,226,1);
-background: -moz-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(40%, rgba(219,219,219,1)), color-stop(77%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
-background: -webkit-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
-background: -o-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
-background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+    background: rgba(226, 226, 226, 1);
+    background: -moz-linear-gradient(45deg, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 40%, rgba(209, 209, 209, 1) 77%, rgba(254, 254, 254, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(226, 226, 226, 1)), color-stop(40%, rgba(219, 219, 219, 1)), color-stop(77%, rgba(209, 209, 209, 1)), color-stop(100%, rgba(254, 254, 254, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 40%, rgba(209, 209, 209, 1) 77%, rgba(254, 254, 254, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 40%, rgba(209, 209, 209, 1) 77%, rgba(254, 254, 254, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 40%, rgba(209, 209, 209, 1) 77%, rgba(254, 254, 254, 1) 100%);
+    background: linear-gradient(45deg, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 40%, rgba(209, 209, 209, 1) 77%, rgba(254, 254, 254, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1);
 }
-#about > h2 {
+
+#about > a, #portfolio a {
+    color: #556b2f !important;
+}
+
+#about > h2,
+#portfolio > h2 {
     text-align: center;
     color: rgb(85, 107, 47) !important;
 }
+
 #about > img {
     max-height: 250px;
 }
+
 header {
 
     background: forestgreen url(../img/header.jpg) no-repeat fixed;
     background-size: cover;
     background-position: center;
     height: 70vh;
-    }
-   
+}
+
 #bob {
     color: white;
     position: absolute;
     margin: 20vh auto 0;
     right: 10px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
+
 .nav-scrolled {
-    background-color: rgba(85, 107, 47, 0.95);
+    background-color: #556b2f;
 }
+
 .nav-scrolled a:hover {
     color: aliceblue;
 }
+
 .main-container {
     background-color: #fff;
 }
+
 section {
     background-color: white
 }
+
 #skills {
-    
-    min-height: 60vh;
     padding-top: 30px;
     padding-bottom: 22px;
 }
+
 .olive-bg {
     background-color: rgb(85, 107, 47);
     color: #fff;
     text-align: center;
-    -webkit-clip-path: polygon(0 7%, 14% 4%, 36% 1%, 73% 5%, 93% 3%, 100% 1%, 100% 89%, 83% 95%, 63% 94%, 32% 94%, 6% 96%, 0 88%);
-clip-path: polygon(0 7%, 14% 4%, 36% 1%, 73% 5%, 93% 3%, 100% 1%, 100% 89%, 83% 95%, 63% 94%, 32% 94%, 6% 96%, 0 88%);
+
 }
+
+.olive-bg-top {
+    background-color: rgb(85, 107, 47);
+    -webkit-clip-path: polygon(65% 32%, 86% 11%, 100% 18%, 100% 100%, 0 100%, 0 23%, 35% 7%);
+    clip-path: polygon(65% 32%, 86% 11%, 100% 18%, 100% 100%, 0 100%, 0 23%, 35% 7%);
+    height: 50px;
+}
+
+.olive-bg-bottom {
+    background-color: rgb(85, 107, 47);
+    -webkit-clip-path: polygon(100% 0, 99% 90%, 61% 67%, 39% 87%, 13% 74%, 1% 92%, 0 0);
+    clip-path: polygon(100% 0, 99% 90%, 61% 67%, 39% 87%, 13% 74%, 1% 92%, 0 0);
+    height: 50px;
+}
+
 .fa-wifi {
     transform: rotate(225deg);
 }
@@ -70,26 +97,33 @@ clip-path: polygon(0 7%, 14% 4%, 36% 1%, 73% 5%, 93% 3%, 100% 1%, 100% 89%, 83% 
     background-size: cover;
     background-position: center;
     position: relative;
-   
+
 }
+
 .p-image1 {
     background-image: url(../img/288.png);
 }
+
 .p-image2 {
     background-image: url(../img/huf.png);
 }
+
 .p-image3 {
     background-image: url(../img/wsj19.png);
 }
+
 .p-image4 {
     background-image: url(../img/ehuf.png);
 }
+
 .p-image5 {
     background-image: url(../img/szmaragdowa.png)
 }
+
 .p-image6 {
     background-image: url(../img/bootstrap-cw.png)
 }
+
 .port-mask {
     position: absolute;
     width: 100%;
@@ -104,18 +138,29 @@ clip-path: polygon(0 7%, 14% 4%, 36% 1%, 73% 5%, 93% 3%, 100% 1%, 100% 89%, 83% 
     align-items: center;
     justify-content: center;
     align-content: center;
-        
+    overflow: hidden;
+
 }
+
 .port-mask a {
     color: white;
     transition: 1s;
-     
+
 }
-.port-mask a:hover {
+
+.port-mask:hover a {
     color: olivedrab;
 }
+
 .port-mask:hover {
     opacity: 1
+}
+#druh {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#druh > a {
+    color: #fff;
 }
 #simple-title {
     min-height: 60px;
@@ -129,20 +174,27 @@ footer {
     min-height: 60px;
     line-height: 60px;
 }
-footer >div {
-   background-color: #202020;
+
+footer > div {
+    background-color: #202020;
 }
+
 footer a {
     color: #fff;
     transition: 0.7s;
 }
+
 footer a:hover {
     color: rgba(255, 255, 255, 0.3)
 }
+
 footer i {
     margin-top: 14px;
     margin-right: 10px;
 }
+
+/*Wersja przed bootstrapem */
+
 /*header {
     background-color: forestgreen;
     box-shadow: 0 5px 5px rgba(169, 169, 169, 0.6);
@@ -186,4 +238,3 @@ footer {
     height: 10vh;
     padding: 10px;
 } */
-
